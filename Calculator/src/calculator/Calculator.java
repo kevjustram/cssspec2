@@ -31,8 +31,6 @@ public class Calculator extends JFrame implements ActionListener {
     JButton point = new JButton(".");
     JButton equals = new JButton("=");
     JButton ac = new JButton("AC");
-    JButton clear = new JButton("C");
-    JButton backs = new JButton("<-");
 
     double num1 = 0, num2 = 0, ans = 0;
     int operation = 0, ctr = 0;
